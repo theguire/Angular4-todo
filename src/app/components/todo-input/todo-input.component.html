@@ -1,0 +1,6 @@
+<div class="todoInputWrapper">
+    <!--  <input type='text' [(ngModel)]='todoText' value='{{ todoText }}' />
+    <button class='btn bt-primary' (click)='addTodo()'>Add</button> -->
+    <input value="Enter New Task" #todoItem (keyup.enter)="addItem( todoItem.value); todoItem.value=''" (blur)="addItem( todoItem.value ); todoItem.value=''" />
+    
+</div>
