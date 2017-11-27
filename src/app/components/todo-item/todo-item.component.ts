@@ -20,8 +20,8 @@ export class TodoItemComponent implements OnInit {
     this.todoService.removeCompletedTasks();
   }
 
-  private removeTodo(): void {
+/*   private removeTodo(): void {
     this.todoService.removeTodo( this.todo.id );
   }
-
+ */
 }
